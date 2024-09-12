@@ -8,6 +8,7 @@ try:
     check_number = int(number)
 except:
     print('it is not number, please check and try again')
+    exit()
 if len(number) == 5:
 
 

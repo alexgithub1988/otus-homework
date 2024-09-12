@@ -9,6 +9,7 @@ try:
     days = int(days)
 except:
     print('Введено не число')
+    exit()
 if days < 6:
     print(0)
 elif days == 6:
