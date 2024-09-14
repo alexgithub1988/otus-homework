@@ -36,13 +36,13 @@ else:
 result_row = ''
 for key,value in my_dict.items():
     while user_input >= key:
-            print(user_input,'before')
+            # print(user_input,'before')
             user_input -= key
-            print(user_input, 'after')
-            print(result_row,'before')
+            # print(user_input, 'after')
+            # print(result_row,'before')
             result_row = result_row + value
-            print(result_row, 'after')
-            print(f'{key}:{value}')
+            # print(result_row, 'after')
+            # print(f'{key}:{value}')
 print(result_row)
 
 
