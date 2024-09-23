@@ -5,8 +5,9 @@
 # Dog, 2 -> Fqi
 # Zak zak, 3 -> Cdn cdn
 # Python is the BEST, 5 -> Udymts nx ymj GJXY
-row = 'Python is the BEST'
-shift = 5
+input_data = input('please input row with shift:')
+row = input_data.split(', ')[0]
+shift = int(input_data.split(', ')[1])
 result_row = ''
 for i in range(len(row)):
     if 'a' <= row[i] <= 'z':
