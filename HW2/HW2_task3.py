@@ -6,7 +6,7 @@
 # abcba -> 1a1b1c1b1a
 
 
-my_string = 'abcba'
+my_string = input('please input string: ')
 result_str = ''
 
 count = 1

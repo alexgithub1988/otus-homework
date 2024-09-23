@@ -10,10 +10,11 @@
 # [[0,1,1,0], [1, 0, 1, 0], [1,1,0,1]], 2 -> False
 
 #list_of_rows = [[0,1,1,0], [1, 0, 0, 0], [0,1,0,0]]
-list_of_rows = [[0,1,1,0], [1, 0, 1, 0], [1,1,0,1]]
+list_of_rows = input('please, input list of list \n'
+                     'input_format is: [[0,1,1,0], [1, 0, 1, 0], [1,1,0,1]]: ')
 quantity_of_rows = len(list_of_rows)
-print('please, input quantity of the tickets')
-user_input = input()
+
+user_input = input('please, input quantity of the tickets: ')
 try:
     user_input = int(user_input)
 except:
